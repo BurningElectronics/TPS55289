@@ -62,6 +62,7 @@ To calculate **Vout(mV)** we use:
 Vout(vref) = round((45+vref*0.5645)/0.0564)
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=round%28%2845%2Bx*0.5645%29%2F0.0564%29+where+x+%3D+0
 
 
@@ -80,6 +81,7 @@ To calculate **Vref** we use:
 Vref(vout[mV]) = round((x*0.0564-45)/0.5645)
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=round%28%28x*0.0564-45%29%2F0.5645%29+where+x+%3D+5000
 
 
@@ -111,12 +113,14 @@ To calculate **Iout(mA)** we use:
 Iout(cRaw) = cRaw\*0.5/5*1000 for a 5mOhm shunt
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=x*0.5%2F5*1000+where+x%3D10
 
 
 Iout(cRaw) = cRaw\*0.5/5*1000 for a 10mOhm shunt
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=x*0.5%2F10*1000+where+x%3D10
 
 
@@ -125,6 +129,7 @@ The generalized function is:
 Iout(cRaw, res[mOhm]) = cRaw\*0.5/res*1000
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=c*0.5%2Fr*1000+where+c%3D10%2C+r%3D10
 
 
@@ -143,6 +148,7 @@ To calculate **cRaw** we use:
 cRaw(iout[mA], res[mOhm]) = iout\*res/1000*2 
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=c*r%2F1000*2+where+c+%3D+1000%2C+r+%3D+5
 
 
@@ -239,6 +245,7 @@ To calculate **Vout(mV)** we can use the generalized function:
 Vout(vref, intfb) = round((45+vref*0.5645)/intfb)
 
 You can play with it at:
+
 WolframAlpha: https://www.wolframalpha.com/input?i=round%28%2845%2Bv*0.5645%29%2Ff%29+where+v+%3D+420%2C+f+%3D+0.2256
 
 
