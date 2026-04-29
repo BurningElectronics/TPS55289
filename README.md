@@ -108,13 +108,13 @@ converter.setVoltage(12000); //Sets output voltage to 12V
 
 To calculate **Iout(mA)** we use:
 
-Iout(cRaw) = cRaw*0.5/5*1000 for a 5mOhm shunt
+Iout(cRaw) = cRaw\*0.5/5*1000 for a 5mOhm shunt
 
 You can play with it at:
 WolframAlpha: https://www.wolframalpha.com/input?i=x*0.5%2F5*1000+where+x%3D10
 
 
-Iout(cRaw) = cRaw*0.5/5*1000 for a 10mOhm shunt
+Iout(cRaw) = cRaw\*0.5/5*1000 for a 10mOhm shunt
 
 You can play with it at:
 WolframAlpha: https://www.wolframalpha.com/input?i=x*0.5%2F10*1000+where+x%3D10
@@ -122,7 +122,7 @@ WolframAlpha: https://www.wolframalpha.com/input?i=x*0.5%2F10*1000+where+x%3D10
 
 The generalized function is:
 
-Iout(cRaw, res[mOhm]) = cRaw*0.5/res*1000
+Iout(cRaw, res[mOhm]) = cRaw\*0.5/res*1000
 
 You can play with it at:
 WolframAlpha: https://www.wolframalpha.com/input?i=c*0.5%2Fr*1000+where+c%3D10%2C+r%3D10
@@ -140,7 +140,7 @@ WolframAlpha: https://www.wolframalpha.com/input?i=c*0.5%2Fr*1000+where+c%3D10%2
 
 To calculate **cRaw** we use:
 
-cRaw(iout[mA], res[mOhm]) = iout*res/1000*2 
+cRaw(iout[mA], res[mOhm]) = iout\*res/1000*2 
 
 You can play with it at:
 WolframAlpha: https://www.wolframalpha.com/input?i=c*r%2F1000*2+where+c+%3D+1000%2C+r+%3D+5
@@ -178,8 +178,8 @@ converter.setCurrent(1000, 5); //Current is set to 1A, second argument 5 is the 
 
 
 NOTE1: With a 5mOhm shunt we have 100mA step, with 10mOhm we have 50mA step
-NOTE2: We can evaluate minimum step using Iout(1, res[mOhm]) = 0.5/res*1000
-NOTE3: We can evaluate maximum Iout using Iout(127, res[mOhm]) = 127*0.5/res*1000
+NOTE2: We can evaluate minimum step using Iout(1, res[mOhm]) = 0.5/res\*1000
+NOTE3: We can evaluate maximum Iout using Iout(127, res[mOhm]) = 127\*0.5/res*1000
 
 
 | shunt[mOhm]  | step[mA] | Ioutmax[mA] | 
