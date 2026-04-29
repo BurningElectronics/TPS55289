@@ -191,6 +191,12 @@ NOTE3: We can evaluate maximum Iout using Iout(127, res[mOhm]) = 127*0.5/res*100
 |50            |10        |1270         |
 
 
+Unfortunately, there's some drift between target current value and actual current value
+
+
+<img width="1338" height="756" alt="Image" src="https://github.com/user-attachments/assets/9e8d62b3-aad1-4b9d-bdd7-3ef030e9524d" />
+
+
 
 ### Other Functions
 
