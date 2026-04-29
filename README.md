@@ -183,8 +183,8 @@ converter.setCurrent(1000, 5); //Current is set to 1A, second argument 5 is the 
 ```
 
 
-NOTE1: With a 5mOhm shunt we have 100mA step, with 10mOhm we have 50mA step
-NOTE2: We can evaluate minimum step using Iout(1, res[mOhm]) = 0.5/res\*1000
+NOTE1: With a 5mOhm shunt we have 100mA step, with 10mOhm we have 50mA step \n
+NOTE2: We can evaluate minimum step using Iout(1, res[mOhm]) = 0.5/res\*1000 \n
 NOTE3: We can evaluate maximum Iout using Iout(127, res[mOhm]) = 127*0.5/res\*1000
 
 
